@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090473BB1E2CB6E1001C7020 /* nivel1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 090473BA1E2CB6E1001C7020 /* nivel1.txt */; };
 		2B95CB281E2C2E4E00422418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95CB271E2C2E4E00422418 /* AppDelegate.swift */; };
 		2B95CB2A1E2C2E4E00422418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95CB291E2C2E4E00422418 /* ViewController.swift */; };
 		2B95CB2D1E2C2E4E00422418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B95CB2B1E2C2E4E00422418 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090473BA1E2CB6E1001C7020 /* nivel1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nivel1.txt; sourceTree = "<group>"; };
 		2B95CB241E2C2E4E00422418 /* PalabrasMezcladas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalabrasMezcladas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B95CB271E2C2E4E00422418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B95CB291E2C2E4E00422418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				2B95CB2E1E2C2E4E00422418 /* Assets.xcassets */,
 				2B95CB301E2C2E4E00422418 /* LaunchScreen.storyboard */,
 				2B95CB331E2C2E4E00422418 /* Info.plist */,
+				090473BA1E2CB6E1001C7020 /* nivel1.txt */,
 			);
 			path = PalabrasMezcladas;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 				2B95CB321E2C2E4E00422418 /* LaunchScreen.storyboard in Resources */,
 				2B95CB2F1E2C2E4E00422418 /* Assets.xcassets in Resources */,
 				2B95CB2D1E2C2E4E00422418 /* Main.storyboard in Resources */,
+				090473BB1E2CB6E1001C7020 /* nivel1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +267,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B9HD8AVJE6;
 				INFOPLIST_FILE = PalabrasMezcladas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.355berrystreet.PalabrasMezcladas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B9HD8AVJE6;
 				INFOPLIST_FILE = PalabrasMezcladas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.355berrystreet.PalabrasMezcladas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +308,7 @@
 				2B95CB381E2C2E4E00422418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
